@@ -1,0 +1,16 @@
+.img-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.img-area img {
+    width: 150px;
+}
+
+#teacher_passwords {
+    display: none;
+}
+
+.hidden-changpassword {
+    display: none;
+}

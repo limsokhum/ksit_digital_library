@@ -1,0 +1,24 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Moul&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Moul&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Koulen&family=Noto+Serif+Khmer:wght@400;500;600;700&family=REM:wght@200;300;400&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.title_top_repre {
+    font-family: "Moul", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-shadow: 1px 2px black;
+}
+
+.title_top_repre_e {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

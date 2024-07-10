@@ -1,0 +1,770 @@
+/* ********* Start Research Papers ********* */
+
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Koulen&family=Noto+Serif+Khmer:wght@400;500;600;700&family=REM:wght@200;300;400&family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: #ffff;
+  background: #336666;
+}
+
+
+
+.welcome-bnt {
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+.fa-arrow-right:hover {
+  transform: scaleX(1.2);
+}
+
+/* .welcometextbox h2 {
+  font-family: "Kantumruy Pro", sans-serif;
+  color: orange;
+}
+
+.welcometextbox .btn-welcome {
+  font-family: "Kantumruy Pro", sans-serif;
+} */
+
+
+/* start hover display block  */
+.dropdown:hover {
+  .dropdown-menu {
+    display: block;
+  }
+}
+
+/* End hover display block */
+
+.hidden-changpassword {
+  display: none;
+}
+
+.hidden-teacher-advisor {
+  display: none;
+}
+
+.button-download {
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+.major-study ul li a:hover {
+  color: #FFA500 !important;
+}
+
+.major-study .de_active {
+  color: #FFA500;
+}
+
+
+/* Start  Custom User Profile */
+
+.img-profile {
+  width: 3rem;
+  height: 3rem;
+  border: 3px solid #336666;
+  border-radius: 50%;
+}
+
+/* Ent Custom User Profile */
+
+/* Start Pagination  */
+.pagination>li>a {
+  background-color: white;
+  color: #336666;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #336666;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+.pagination>.active>a {
+  color: white;
+  background-color: #336666 !Important;
+  border: solid 1px #336666 !Important;
+}
+
+.pagination>.active>a:hover {
+  background-color: #336666 !Important;
+  border: solid 1px #336666;
+}
+
+/* Ent Pagination  */
+
+/* Start Index Custom */
+.content-reshearch {
+  display: flex;
+  justify-content: center;
+}
+
+.form-reshearch {
+  width: 86%;
+}
+
+.research-input {
+  font-family: 'Noto Serif Khmer', serif;
+}
+
+/* Ent Index Custom */
+
+/* view page staff */
+.list-staf {
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+.detail-staf {
+  font-family: 'Noto Serif Khmer', serif;
+}
+
+.conten-show-more {
+  text-align: justify;
+}
+
+/* view page staff end */
+/* Start Custom Scroll Top */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #242424;
+  color: white;
+  cursor: pointer;
+  padding: 13px;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+/* #myBtn .fa-circle-chevron-up{
+  
+} */
+#myBtn:hover {
+  background-color: #555;
+  box-shadow: 0px 2px 15px #336666;
+}
+
+/* End Custom Scroll Top */
+
+/* Start Custom Right Top Coner */
+.section-right-coner {
+  width: 100%;
+  height: 100%;
+}
+
+/* End Custom Right Top Coner */
+
+/* Start custom list user digital book */
+.header-list-digital-user {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ent custom list user digital book */
+
+
+
+/* Start Custom Contanct */
+.card-type-research {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 996px) {
+  .card-type-research {
+    display: block;
+  }
+
+  .card-types-research {
+    margin: 1rem auto;
+  }
+}
+
+.card-types-research {
+  width: 16rem;
+  background-color: #dedede;
+  font-family: 'Bayon', sans-serif;
+  height: 12rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+}
+
+.card-types-research:hover {
+  border: 1px solid grey;
+  box-shadow: 0px 4px 8px grey;
+}
+
+.type-research-title {
+  text-align: center;
+  color: #336666;
+  font-family: 'Bayon', sans-serif;
+}
+
+.contanct-text {
+  font-family: 'Noto Serif Khmer', serif;
+  /* font-family: "Kantumruy Pro", sans-serif; */
+  font-weight: bolder;
+}
+
+.contanct-title {
+  font-family: 'Bayon', sans-serif;
+  line-height: 3rem;
+  word-spacing: 1rem;
+  color: orange;
+}
+
+.contanct-titles {
+  font-family: 'Bayon', sans-serif;
+  line-height: 3rem;
+  word-spacing: 1rem;
+  color: orange;
+}
+
+dt {
+  font-family: 'Noto Serif Khmer', serif;
+  font-weight: bolder;
+}
+
+dd {
+  font-family: 'Noto Serif Khmer', serif;
+}
+
+/* End Custom Contanct */
+
+/* Start Custom Slide Show */
+.wraper-slide {
+  display: flex;
+}
+
+/* Start Section Top Bar */
+@media screen and (max-width: 996px) {
+  .top-bar .logo img {
+    width: 200px;
+    height: 50px;
+  }
+
+  .top-bar .banner {
+    display: none;
+  }
+
+}
+
+/* Ent Section Top Bar */
+
+/* Start Navigation Bar */
+.nav-bar ul li {
+  list-style: none;
+  margin: 0 0.5rem;
+}
+
+.nav-bar ul li a {
+  /* font-family: 'Bayon', sans-serif; */
+  font-family: "Kantumruy Pro", sans-serif;
+  font-weight: 400px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.nav-bar ul li a:hover {
+  color: #FFA500 !important;
+}
+
+.nav-bar .active {
+  color: #FFA500;
+}
+
+.search {
+  display: flex;
+  font-family: 'Bayon', sans-serif;
+  font-weight: 400px;
+}
+
+#myDropdown:hover,
+.dropdown-menu {
+  display: block;
+}
+
+.form-search {
+  font-family: 'Bayon', sans-serif;
+}
+
+.submit-search {
+  font-family: 'Bayon', sans-serif;
+  font-weight: 400px;
+}
+
+@media screen and (max-width: 996px) {
+  .search {
+    display: flex;
+    font-family: 'Bayon', sans-serif;
+    font-weight: 400px;
+  }
+}
+
+/* Ent Navigation Bar */
+
+/* Start Page Teacher Staff */
+.profiles-teacher {
+  width: 100%;
+}
+
+.profile-teacher {
+  width: 24rem;
+  height: 20rem;
+}
+
+.profile-teacher img {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  box-shadow: 0px 1px 10px grey;
+}
+
+/* End Page Teacher Staff */
+
+/* Start Content Computer */
+.title {
+  align-items: center;
+}
+
+.computer h5 {
+  width: 16rem;
+  text-align: center;
+  color: orange;
+  /* font-family: 'Bayon', sans-serif; */
+  font-family: "Kantumruy Pro", sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background: #336666;
+}
+
+.rows {
+  height: 3px;
+  width: 100%;
+  background-color: #336666;
+}
+
+/* Ent Content Computer */
+/* ********* Ent Research Papers ********* */
+
+
+
+/* ********* Start Home Page ********* */
+.container-header {
+  cursor: pointer;
+}
+
+.container-header img {
+  transition: 2s;
+}
+
+.container-header img:hover {
+  opacity: 0.5;
+}
+
+/* Start Details News */
+.img-cover {
+  width: 56%;
+  margin: auto;
+  height: 24rem;
+}
+
+.img-cover img {
+  width: 100%;
+  height: 100%;
+}
+
+.news-announcementses {
+  border-bottom: 1px solid #336666;
+  transition: 0.2s;
+}
+
+.news-announcementses:hover {
+  box-shadow: 0px 0.1px 1px 1px grey;
+}
+
+.news-announcementses .detail-newseses {
+  width: 100%;
+}
+
+.news-announcementses .detail-newseses .research-title {
+  font-family: "Hanuman", serif;
+  font-weight: 900;
+  color: orange;
+  cursor: pointer;
+}
+
+.news-announcementses .detail-newseses .defult-title {
+  font-family: "Hanuman", serif;
+  font-weight: 900;
+  color: #336666;
+  cursor: pointer;
+}
+
+.news-announcementses .detail-newseses .research-text {
+  color: #336666;
+  font-family: "Hanuman", serif;
+  font-weight: 900;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+
+/* Ent Details News */
+/* Start Details News */
+.news-announcements {
+  display: flex;
+  border-bottom: 1px solid #336666;
+  transition: 0.2s;
+  width: 100%;
+}
+
+.news-announcements:hover {
+  box-shadow: 0px 0.1px 1px 1px grey;
+}
+
+.news-announcements .img-news {
+  width: 20%;
+  height: 8rem;
+  display: block;
+}
+
+.news-announcements .img-news img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.news-announcements .detail-news {
+  width: 80%;
+  margin-left: 1rem;
+}
+
+.detail-news-right {
+  width: 100%;
+}
+
+.detail-news-right .research-title {
+  font-family: 'Bayon', sans-serif;
+  color: orange;
+  cursor: pointer;
+}
+
+.news-announcements .detail-news .research-title {
+  font-family: "Hanuman", serif;
+  font-weight: 900;
+  color: orange;
+  cursor: pointer;
+}
+
+.news-announcements .detail-news .defult-title {
+  font-family: "Hanuman", serif;
+  font-weight: 900;
+  color: #336666;
+  cursor: pointer;
+}
+
+.news-announcements .detail-news .research-text {
+  color: #336666;
+  font-family: 'Noto Serif Khmer', serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 996px) {
+  .news-announcements {
+    display: block;
+    border-bottom: 1px solid #336666;
+  }
+
+  .news-announcements .img-news {
+    width: 100%;
+    height: 8rem;
+  }
+
+  .news-announcements .img-news img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .news-announcements .detail-news {
+    width: 100%;
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
+
+  .news-announcements .detail-news .research-title {
+    font-family: "Hanuman", serif;
+    font-weight: 900;
+    color: orange;
+    cursor: pointer;
+  }
+
+  .news-announcements .detail-news .research-text {
+    font-family: 'Noto Serif Khmer', serif;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
+
+/* Ent Details News */
+/* Start Bottom Navigation Bar */
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-nav .about-us h6 {
+  font-family: 'Bayon', sans-serif;
+  color: orange;
+}
+
+.bottom-nav .more-link h6 {
+  font-family: 'Bayon', sans-serif;
+  color: orange;
+}
+
+.bottom-nav .important-links h6 {
+  font-family: 'Bayon', sans-serif;
+  color: orange;
+}
+
+.bottom-nav .contain-more-link {
+  font-family: 'Noto Serif Khmer', serif;
+}
+
+.bottom-nav .contain-important {
+  font-family: 'Noto Serif Khmer', serif;
+}
+
+.bottom-nav .address {
+  font-family: 'Noto Serif Khmer', serif;
+}
+
+@media screen and (max-width: 996px) {
+  .bottom-nav {
+    display: block;
+  }
+
+  .important-links {
+    margin-top: 1rem;
+  }
+}
+
+.major-title {
+  font-family: "Kantumruy Pro", sans-serif;
+  color: orange;
+  text-decoration: underline;
+}
+
+.major-study ul li a {
+  font-family: 'Noto Serif Khmer', serif;
+}
+
+/* Ent Bottom Navigation Bar */
+
+/* ********* Ent Home Page ********* */
+
+/* ********* Start Activities Page ********* */
+.activities-detail .img-activities {
+  width: 100%;
+  height: 100%;
+}
+
+.activities-detail .img-activities img {
+  width: 100%;
+  height: 100%;
+}
+
+.detail-activities .activities-title {
+  font-family: 'Bayon', sans-serif;
+  color: orange;
+  margin: 1rem 0rem;
+  text-decoration: underline;
+}
+
+.detail-activities .activities-text {
+  font-family: 'Noto Serif Khmer', serif;
+}
+
+.content-activities .details-images {
+  width: 100%;
+  height: auto;
+}
+
+.content-activities .details-images img {
+  width: 100%;
+  height: auto;
+}
+
+/* ********* Ent Activities Page ********* */
+
+/* ********* Start Department Page ********* */
+.department h5 {
+  width: 14rem;
+  text-align: center;
+  color: orange;
+  font-family: 'Bayon', sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  background: #336666;
+}
+
+.rows {
+  height: 3px;
+  width: 100%;
+  background-color: #336666;
+}
+
+.main-department {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 6px;
+}
+
+.news-department {
+  display: flex;
+}
+
+.news-department .img-news {
+  width: 30%;
+  height: 8rem;
+}
+
+.news-department .img-news img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.news-department .img-news img:hover {
+  scale: 1.1;
+}
+
+.news-department .detail-news {
+  width: 70%;
+  margin-left: 1rem;
+}
+
+.news-department .detail-news .department-title {
+  text-decoration: underline;
+  font-family: 'Bayon', sans-serif;
+  color: orange;
+  cursor: pointer;
+}
+
+.news-department .detail-news .department-text {
+  font-family: 'Noto Serif Khmer', serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* ********* Start Department Page ********* */
+
+/* ********* Start Admin Page ********* */
+
+.rowses {
+  height: 1px;
+  width: 100%;
+  background-color: #336666;
+}
+
+.staff-title {
+  font-family: "Kantumruy Pro", sans-serif;
+  /* font-family: 'Bayon', sans-serif; */
+  font-size: 1.2rem;
+  color: orange;
+}
+
+.control-profile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.staff-profile {
+  width: 14rem;
+  height: 14rem;
+  /* background-color: red; */
+}
+
+.bg-profile {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: 1px auto;
+  background-color: grey;
+  box-shadow: 0px 4px 1px 3px #336666;
+}
+
+.bg-profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 996px) {
+  .staff-profile {
+    width: 10rem;
+    height: 10rem;
+    /* background-color: red; */
+  }
+
+  .bg-profile {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 1px auto;
+    background-color: grey;
+    box-shadow: 0px 4px 1px 3px #336666;
+  }
+
+  .control-profile {
+    display: block;
+  }
+}
+
+/* ********* Ent Admin Page ********* */
+
+/* ********* Start Department Page ********* */
+
+.detail-department {
+  display: block;
+  /* border-bottom: 1px solid #336666; */
+}
+
+.detail-department .detail-news {
+  width: 100%;
+}
+
+.detail-department .detail-news .research-title {
+  font-family: 'Bayon', sans-serif;
+  color: orange;
+  cursor: pointer;
+}
+
+.detail-department .detail-news .research-text {
+  font-family: 'Noto Serif Khmer', serif;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* ********* Ent Department Page ********* */
